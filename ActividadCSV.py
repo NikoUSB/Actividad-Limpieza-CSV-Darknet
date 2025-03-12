@@ -34,6 +34,6 @@ df2["Timestamp"] = pd.to_datetime(df2["Timestamp"])
 
 #Mostrar la informacion del dataframe limpio
 print(df2.info())
-
+print(df2.describe())
 #Guardar dataframe limpio en un archivo csv
 df2.to_csv("C:/Users/nalva/OneDrive/Escritorio/Python/Datos/CSV/Darknet2.csv", index=False)
